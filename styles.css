@@ -1,0 +1,100 @@
+
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     background-color: #777;
+     width: 960px;
+     font-size: 18px;  
+     color: #777;
+    padding: 80px 190px 80px 190px; 
+    }
+   
+    #Header{
+    background: #ebebeb;
+    width: 960px;
+    height:70px;
+    margin-top: 10px;
+    text-align: center; 
+    line-height:60px;
+    display: inline-block;
+} 
+
+#Nav{
+    background: #ebebeb;
+    width: 960px;
+    height:70px;
+    margin-top: 10px;
+    text-align: center;
+    line-height:60px;
+    display: inline-block;
+} 
+#container{
+   
+   margin-top:15px;
+    width:960px;
+}
+#container::after{content:""; display:block;clear: both;}
+#Section{
+    background: #ebebeb;
+    float: left;
+    width: 54%;
+    height:250px;
+    text-align: center;
+    line-height:60px;
+    display: inline-block;
+   
+} 
+#Section::after{content:""; display:table;clear: both;}
+#article{
+    text-align: center;
+    color: #ebebeb;
+    background-color: #777;
+    width:495px;
+    margin:10px;
+     line-height:50px;
+    display: inline-block;
+}
+#article::after{content:""; display:table;clear: both;}
+#h1{
+    color: #777;
+     background-color: #ebebeb;
+     height: 30px;
+     width:415px;
+     margin-right:20px;
+     margin-left: 20px;
+     margin-bottom:10px;
+     padding: 7px 20px 7px 20px;
+     text-align: center;
+     line-height:30px;
+     display: inline-block;
+}
+#p{
+    color: #777;
+     background: #ebebeb;
+     width:415px;
+     height: 30px;
+    margin-right:20px;
+     margin-left: 20px;
+    padding: 7px 20px 7px 20px;
+    margin-bottom:20px;
+    text-align: center;
+    line-height:30px;
+    display: inline-block;
+}
+#Aside{
+    background: #ebebeb;
+    float:right;
+    width:44%;
+    height:250px;
+    text-align: center;
+    line-height:60px;
+    display: inline-block;
+} 
+#Footer{
+    background: #ebebeb;
+    width: 960px;
+    height:70px;
+     margin-top: 15px;
+    text-align: center;
+    line-height:60px;
+    display: inline-block;
+}
