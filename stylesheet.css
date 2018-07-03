@@ -5,26 +5,29 @@ body{
      width: 960px;
      font-size: 18px;  
      color: #777;
-    padding: 80px 190px 80px 190px; 
+    padding: 10px 170px 80px 250px; 
+    margin-top: 10px;
+
     }
+  
    
-    #Header{
+    header{
     background: #ebebeb;
     width: 960px;
-    height:70px;
+    height:90px;
     margin-top: 10px;
     text-align: center; 
-    line-height:60px;
+    line-height:90px;
     display: inline-block;
 } 
 
-#Nav{
+nav{
     background: #ebebeb;
     width: 960px;
-    height:70px;
+    height:90px;
     margin-top: 10px;
     text-align: center;
-    line-height:60px;
+    line-height:90px;
     display: inline-block;
 } 
 #container{
@@ -33,9 +36,9 @@ body{
     width:960px;
 }
 #container::after{content:""; display:block;clear: both;}
-#Section{
+section{
     background: #ebebeb;
-    float: left;
+    float:left;
     width: 54%;
     height:250px;
     text-align: center;
@@ -43,8 +46,8 @@ body{
     display: inline-block;
    
 } 
-#Section::after{content:""; display:table;clear: both;}
-#article{
+section::after{content:""; display:table;clear: both;}
+article{
     text-align: center;
     color: #ebebeb;
     background-color: #777;
@@ -53,7 +56,7 @@ body{
      line-height:50px;
     display: inline-block;
 }
-#article::after{content:""; display:table;clear: both;}
+article::after{content:""; display:table;clear: both;}
 #h1{
     color: #777;
      background-color: #ebebeb;
@@ -80,7 +83,7 @@ body{
     line-height:30px;
     display: inline-block;
 }
-#Aside{
+aside{
     background: #ebebeb;
     float:right;
     width:44%;
@@ -89,12 +92,12 @@ body{
     line-height:60px;
     display: inline-block;
 } 
-#Footer{
+footer{
     background: #ebebeb;
     width: 960px;
-    height:70px;
+    height:90px;
      margin-top: 15px;
     text-align: center;
-    line-height:60px;
+    line-height:90px;
     display: inline-block;
 }
